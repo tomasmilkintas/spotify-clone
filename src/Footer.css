@@ -34,12 +34,18 @@
 
 .footer__center {
     flex: 0.4;
+
     padding: 0 100px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 300px;
+}
+
+.footer__icon,
+.footer__green {
+    font-size: 30px !important;
 }
 
 .footer__green {
