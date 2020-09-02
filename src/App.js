@@ -47,7 +47,7 @@ function App() {
                 });
             });
         }
-    }, []);
+    }, [dispatch]);
 
     return <div className="app">{token ? <Player spotify={spotify} /> : <Login />}</div>;
 }
